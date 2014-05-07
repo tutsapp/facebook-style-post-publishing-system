@@ -1,0 +1,50 @@
+/*status updater css
+//Developer:Rahul Negi
+//Dev Url: www.tutsapp.com
+*/
+
+*{margin:0; padding:0;}
+
+body{background:#eee;font-family:verdana;}
+
+header{display:block; width:100%; background-color:#333; background-size:42px; position:fixed; color:#f9f9f9; text-align:center;background-image:url('images/rappLogo.jpg'); border-bottom:2px solid #1b1b1b; box-shadow:0 0 40px #000;}
+
+header img{width:82px;}
+
+#entry-title{display: inline-block;padding: 4px;background: #222;font-size: 10px;color: #fff;text-align: center;text-shadow: 2px -2px 0 #5E5E5E;border-bottom: 1px solid #000;margin-top: 84px;width: 100%;}
+
+section{display:block; padding:10px; max-width:800px; margin:0 auto; border-left:1px solid #333; border-right:1px solid #333; min-height:470px;}
+
+.clear{clear:both}
+
+#statusBar{display: block;max-width: 600px;width: 100%;margin: 6px auto;padding: 7px;border: 1px solid #000;}
+
+#statusBar input[type="text"]{display: block;max-width: 300px;width: 100%;font-size: 12px;padding: 6px;border: 1px solid #000;}
+
+#msg{display:block;width:100%;text-align:center;font-size:12px;}
+
+#msg img{width:20px;}
+
+#statusBar input[type="button"]{display: block;float: right;padding: 4px 13px;border: 1px solid #000;background: #000;margin-top: 4px;color: #fff;border-radius: 3px;box-shadow: inset 0 0 3px #A8A59E;cursor: pointer;}
+
+#statusBar textarea{display: block;width: 97.8%;font-size: 13px;padding: 1%;margin-top: 6px;border: 1px dashed #000;border-bottom: 3px solid #000;font-family:verdana;}
+
+#sbtbar{background: #D8D8D8;padding: 3px;border: 1px solid #000;}
+
+#msgBar{display: block;max-width: 594px;text-align: center;font-size: 11px;background: #DACC97;padding: 10px;border: 1px solid #70612F;border-radius: 3px;margin: 15px auto;}
+
+#bottomCol{display: block;max-width: 594px;min-height: 200px;width: 100%;background: #FFFFFF;padding: 10px;margin: 0 auto;border: 1px solid #333;}
+
+#feed{display:block;text-align:center;padding: 6px;border: 1px solid #666;font-size: 12px;line-height: 16px;background: #f9f9f9;margin: 10px 0}
+
+.feedtop{display: block;}
+
+.date{display: block;padding: 2px;margin-top: 4px;color: #505050;border-top: 1px solid #666;border-bottom: 1px solid #666;}
+
+#s_content{display: block;padding: 4px;margin: 7px;font-size: 11px;}
+
+.avatar{display: block;border: 1px solid #333;width: 48px;height: 48px;border-radius: 4px;box-shadow: 0 0 4px #000;margin:0 auto;}
+
+.avatar img{border-radius: 4px;width:100%;height:100%;}
+
+footer{display: block;text-align: center;border-top: 1px solid #333;font-size: 11px;padding: 9px 0;background: #000;color: #fff;}
