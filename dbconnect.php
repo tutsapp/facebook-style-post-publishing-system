@@ -1,7 +1,7 @@
 <?php
 //file:dbconnect.php
 //dev: Rahul Negi
-//dev url: www.infotheme.com
+//dev url: www.tutsapp.com
 
 $con=@mysqli_connect("localhost","username","rahul","datatbasename");
 // Check connection
